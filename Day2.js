@@ -39,3 +39,10 @@ console.log(colors); // ["red", "green", "blue"]
 console.log(colors.splice(0, 1));
 console.log(colors.splice(1, 2));
 console.log(colors.splice(1, 3));
+
+const fruitBasket = ['apple', 'banana', 'cherry', 'apple', 'apple', 'banana', 'pineapple']; // apple: 3, banana: 3, cherry: 1, pineapple: 1
+const tally = fruitBasket.reduce((acc, fruit) => {
+    acc[fruit] = (acc[fruit] || 0) + 1;
+    return acc;
+}, {}); // intial value of acc is an empty object
+console.log(tally);
