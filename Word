@@ -70,3 +70,49 @@ Arrow Function
   Short syntax for writing functions using =>.
 JSON (JavaScript Object Notation) 
   Format for storing and exchanging data.
+Map() 
+  Creates a new array by applying a function to each element.
+Filter() 
+  Returns a new array with elements that pass a condition.
+Reduce() 
+  Reduces an array to a single value using a function.
+forEach() 
+  Executes a function on each array element.
+find() 
+  Returns the first element that matches a condition.
+some() 
+  Checks if at least one element satisfies a condition.
+every() 
+  Checks if all elements satisfy a condition.
+Template Literals 
+  Use backticks ( ) for string interpolation.
+Destructuring 
+  Extract values from arrays/objects into variables.
+Spread Operator (...) 
+  Expands elements of arrays/objects.
+Rest Operator (...) 
+  Collects multiple values into a single array.
+Closures 
+  Function that remembers its outer scope.
+Hoisting 
+  Variables and functions are moved to top before execution.
+Promises 
+  Handle async operations with resolve/reject.
+Async/Await 
+  Cleaner way to write asynchronous code.
+Fetch API 
+  Used to make HTTP requests to servers.
+LocalStorage 
+  Stores data in browser permanently.
+SessionStorage 
+  Stores data temporarily for session.
+SetTimeout() 
+  Executes code after a delay.
+SetInterval() 
+  Executes code repeatedly at intervals.
+Error Handling (try...catch) 
+  Handles runtime errors safely.
+Modules (import/export) 
+  Split code into reusable files.
+Class 
+  Blueprint for creating objects (OOP concept).
