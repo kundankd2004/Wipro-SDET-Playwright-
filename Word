@@ -116,3 +116,26 @@ Modules (import/export)
   Split code into reusable files.
 Class 
   Blueprint for creating objects (OOP concept).
+  Asynchronous → Code that runs without blocking the main program.
+Promise 
+  Object representing a future result (success or failure).
+Pending 
+  Initial state, waiting for result.
+Fulfilled 
+  Operation completed successfully.
+Rejected 
+  Operation failed with an error.
+resolve() 
+  Marks promise as successful.
+reject() 
+  Marks promise as failed.
+.then() 
+  Handles successful result.
+.catch() 
+  Handles errors.
+async 
+  Makes a function return a promise.
+await 
+  Waits for a promise to resolve.
+try...catch 
+  Handles errors in async/await.
