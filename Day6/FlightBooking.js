@@ -7,7 +7,7 @@ const rawFlights = [
 
 function cleanFlightdata(flights) {
     const formattedFlights = flights.map(flight => {
-        const [route, price] = flight.split(':');
+        const [route, priceText] = flight.split(":");
         const [from, to] = route.split("-");
         let price = Number(priceText);
         if (isNaN(price)) {
