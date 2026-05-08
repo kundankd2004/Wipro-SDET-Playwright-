@@ -1,0 +1,16 @@
+API: A set of rules that allows software applications to communicate with each other.
+Endpoint: A specific URL where an API can be accessed.
+Request: A message sent by a client to an API to get or send data.
+Response: The data returned by the API after processing a request.
+HTTP Methods: Actions like GET (fetch), POST (create), PUT (update), DELETE (remove).
+REST API: An API that follows REST architecture using HTTP methods.
+JSON: A lightweight format used to exchange data in APIs.
+Authentication: Verifying the identity of a user or application (e.g., API key, token).
+Authorization: Granting permission to access specific resources.
+API Key: A unique code used to identify and authenticate a user.
+Rate Limiting: Restricting the number of API requests in a given time.
+Status Codes: Numeric responses indicating success or error (e.g., 200, 404).
+Headers: Extra information sent with requests or responses.
+Payload: The actual data sent in a request or response.
+SDK: A toolkit that helps developers use APIs easily.
+Webhook: An API that sends real-time data automatically when an event occurs
