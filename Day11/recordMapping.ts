@@ -12,4 +12,4 @@ const PermissionMap: Record<Role, boolean> = {
     [Role.Guest]: false,
 };
 
-console.log
+console.log(PermissionMap);
