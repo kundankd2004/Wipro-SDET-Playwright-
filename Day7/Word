@@ -1,0 +1,141 @@
+*****HTML Important Topics
+
+HTML (HyperText Markup Language)
+  Standard language used to create the structure of web pages.
+Tag
+  Basic building block of HTML used to define elements like <p>, <div>, etc.
+Element 
+  A complete HTML structure including opening tag, content, and closing tag.
+Attribute 
+  Extra information added to HTML elements like class, id, or href.
+Heading Tags (<h1>–<h6>) 
+  Used to define headings with different sizes and importance.
+Paragraph (<p>) 
+  Used to define a block of text.
+Anchor Tag (<a>) 
+  Used to create hyperlinks to other pages or resources.
+Image Tag (<img>) 
+  Used to display images on a webpage.
+List (<ul>, <ol>, <li>) 
+  Used to create ordered and unordered lists.
+Table (<table>) 
+  Used to display data in rows and columns.
+Form (<form>) 
+  Used to collect user input.
+Input (<input>) 
+  Used to create input fields in forms.
+Div (<div>) 
+  Block-level container used for layout and grouping elements.
+Span (<span>) 
+  Inline container used to style or group text.
+Semantic Tags 
+  Tags like <header>, <footer> that describe meaning of content.
+
+
+*****JavaScript Important Topics
+
+JavaScript 
+  Programming language used to make web pages interactive.
+Variable 
+  Used to store data values using var, let, or const.
+Data Types 
+  Types of data like number, string, boolean, object, etc.
+Function 
+  Block of code designed to perform a specific task.
+Operator 
+  Symbols used to perform operations like +, -, ==, etc.
+Conditional Statements 
+  Used to make decisions using if, else, switch.
+Loop 
+  Used to repeat code multiple times like for, while.
+Array 
+  Collection of multiple values stored in a single variable.
+Object 
+  Collection of key-value pairs representing real-world entities.
+DOM (Document Object Model) 
+  Interface to access and manipulate HTML using JavaScript.
+Event 
+  Action like click, hover, or keypress detected by JavaScript.
+Event Listener 
+  Method to handle events like addEventListener().
+String 
+  Sequence of characters used to represent text.
+Boolean 
+  Data type with only two values: true or false.
+Scope 
+  Defines where variables can be accessed in code.
+Callback Function 
+  Function passed as an argument to another function.
+Arrow Function 
+  Short syntax for writing functions using =>.
+JSON (JavaScript Object Notation) 
+  Format for storing and exchanging data.
+Map() 
+  Creates a new array by applying a function to each element.
+Filter() 
+  Returns a new array with elements that pass a condition.
+Reduce() 
+  Reduces an array to a single value using a function.
+forEach() 
+  Executes a function on each array element.
+find() 
+  Returns the first element that matches a condition.
+some() 
+  Checks if at least one element satisfies a condition.
+every() 
+  Checks if all elements satisfy a condition.
+Template Literals 
+  Use backticks ( ) for string interpolation.
+Destructuring 
+  Extract values from arrays/objects into variables.
+Spread Operator (...) 
+  Expands elements of arrays/objects.
+Rest Operator (...) 
+  Collects multiple values into a single array.
+Closures 
+  Function that remembers its outer scope.
+Hoisting 
+  Variables and functions are moved to top before execution.
+Promises 
+  Handle async operations with resolve/reject.
+Async/Await 
+  Cleaner way to write asynchronous code.
+Fetch API 
+  Used to make HTTP requests to servers.
+LocalStorage 
+  Stores data in browser permanently.
+SessionStorage 
+  Stores data temporarily for session.
+SetTimeout() 
+  Executes code after a delay.
+SetInterval() 
+  Executes code repeatedly at intervals.
+Error Handling (try...catch) 
+  Handles runtime errors safely.
+Modules (import/export) 
+  Split code into reusable files.
+Class 
+  Blueprint for creating objects (OOP concept).
+  Asynchronous → Code that runs without blocking the main program.
+Promise 
+  Object representing a future result (success or failure).
+Pending 
+  Initial state, waiting for result.
+Fulfilled 
+  Operation completed successfully.
+Rejected 
+  Operation failed with an error.
+resolve() 
+  Marks promise as successful.
+reject() 
+  Marks promise as failed.
+.then() 
+  Handles successful result.
+.catch() 
+  Handles errors.
+async 
+  Makes a function return a promise.
+await 
+  Waits for a promise to resolve.
+try...catch 
+  Handles errors in async/await.
