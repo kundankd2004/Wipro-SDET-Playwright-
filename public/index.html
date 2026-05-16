@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-box">
+
+    <h1>Sign In</h1>
+
+    <input type="text" id="username" placeholder="Enter Username">
+
+    <input type="password" id="password" placeholder="Enter Password">
+
+    <button onclick="loginUser()">Submit</button>
+
+    <p id="message"></p>
+
+</div>
+
+<script>
+
+function loginUser(){
+
+    let user = document.getElementById("username").value;
+    let pass = document.getElementById("password").value;
+
+    let message = document.getElementById("message");
+
+    if(user === "admin" && pass === "1234"){
+
+        message.innerText = "Welcome Admin";
+        message.style.color = "green";
+
+    } else {
+
+        message.innerText = "Login Failed";
+        message.style.color = "red";
+
+    }
+
+}
+
+</script>
+
+</body>
+</html>
